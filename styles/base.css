@@ -1,0 +1,140 @@
+*{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+}
+header, footer, nav {
+                    background-color: rgb(20, 114, 197);
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    
+                    
+}
+header{
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+}
+.parent{
+                    margin: 1.2rem 2vw;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+}
+.card {
+                    border: 1px solid rgb(20, 114, 197);
+                    background-color:white;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    margin: 3rem, 0;
+                    padding: 0px;
+                    padding-bottom: 20px;
+                    padding-top: 0px;
+                    
+                    
+}
+  .section span{
+                    background-color: white;
+                    color:white;
+                    display: block;
+                    text-align: center;
+                    padding: 1rem,0;
+}
+section{
+                    padding: 10px;
+}
+body{
+                    font-family:"Roboto", sans-serif; 
+                    font-weight: 400;
+                    height: 100%;
+}
+h1{
+                    font-weight: 400;
+}
+nav{
+                    background-color:rgb(211, 115, 20);
+                    
+                    margin:0 auto;
+}
+nav a{
+                    display: block;
+                    color:white;
+                    text-align: center;
+                    padding: 1rem;
+                    text-decoration: none;
+}
+.active{
+                    color: blue;
+}
+
+  
+
+
+nav ul{
+                    display: flex;
+                    justify-content:space-around;
+                    width: 100%;
+                    list-style-type:none ;
+}
+
+
+nav a:hover{
+                    background-color: rgba(255,255,255,0.2);
+}
+nav .active{
+                    background-color: rgba(0,0,0,0.2);
+}
+
+.head{
+                    background-color:rgb(20, 114, 197);
+                    text-align: center;
+                    border-radius:10px;
+                    margin-bottom: 10px;
+}
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1{
+  padding: 20px;
+}
+h3{
+  padding: 5px;
+  margin: 3px;
+  
+}
+#lastModified{
+  display: block;
+  position: relative;
+  top: 5%;
+}
+.container{
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+                    
+                    
+               
+
+
