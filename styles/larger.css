@@ -13,9 +13,14 @@
                     grid-template-columns: 2fr 1fr;
                     column-gap: 18px;
 }
-.parent section {
+.parent section{
                     box-shadow: 1px 1px 10px black;
+                    
 
 }
                     
 }
+
+
+
+                    
