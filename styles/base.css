@@ -4,7 +4,7 @@
                     box-sizing: border-box;
 }
 header, footer, nav {
-                    background-color: rgb(20, 114, 197);
+                    background-color: rgb(22, 80, 131);
                     align-items: center;
                     justify-content: center;
                     display: flex;
@@ -22,7 +22,7 @@ header{
                     padding-bottom: 20px;
 }
 .card {
-                    border: 1px solid rgb(20, 114, 197);
+                    border: 1px solid rgb(22, 80, 131);
                     background-color:white;
                     border-radius: 10px;
                     overflow: hidden;
@@ -33,7 +33,7 @@ header{
                     
 }
   .head{
-                    background-color: rgb(20, 114, 197);
+                    background-color: rgb(22, 80, 131);
                     color:black;
                     display: block;
                     text-align: center;
@@ -52,7 +52,7 @@ h1{
                     font-weight: 400;
 }
 nav{
-                    background-color:rgb(211, 115, 20);
+                    background-color:rgb(96, 61, 29);
                     
                     margin:0 auto;
 }
@@ -70,11 +70,12 @@ nav a{
   
 
 
-nav ul{
-                    display: flex;
+nav ul  {
+                    display: block;
                     justify-content:space-around;
                     width: 100%;
                     list-style-type:none ;
+                    
 }
 
 
@@ -84,13 +85,21 @@ nav a:hover{
 nav .active{
                     background-color: rgba(0,0,0,0.2);
 }
-
-.me{
-                    background-color:rgb(20, 114, 197);
-                    text-align: center;
-                    border-radius:10px;
-                    margin-bottom: 10px;
+@media (min-width:640px){
+  nav ul{
+    display: flex;
+    
+  }
+  nav ul li{
+    flex: 1 1 100%;
+  }
 }
+
+
+
+
+          
+
 footer{
   padding-top: 20px;
   padding-bottom: 20px;
