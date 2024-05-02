@@ -1,15 +1,19 @@
-/*{
+*{
                     box-sizing: border-box;
                     margin: 0;
+                    padding: 0;
                     
 }
 body{
-                    background-color: white;
+                    background-color: #ffffff;
 }header, footer, nav {
                     background-color: #3d3b8e;
                     align-items: center;
                     justify-content: center;
                     display: flex;
+                    height: 150px;
+                    font-family: "Julius Sans one";
+                    color: #ffffff;
                     
                     
                     
@@ -19,7 +23,23 @@ main{
                     margin: 10px;
                     align-items: center;
                     display: block;
-                    font-family:"Julius sans-one" ;
-}//
+                    font-family:"Roboto Static" ;
+}
+.one{
+                    margin: 20px;
+                    padding: 20px;
+}
+.two{
+                    margin: 20px;
+                    padding: 20px;
+}
+h1,h2, h3,h4{
+                    text-align: center;
+                    text-decoration: solid;
+}
+.typo{
+                    padding: 20px;
+                    margin: 20px;
+}
 
 
