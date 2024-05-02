@@ -1,4 +1,4 @@
-*{
+/*{
                     box-sizing: border-box;
                     margin: 0;
                     
@@ -20,6 +20,6 @@ main{
                     align-items: center;
                     display: block;
                     font-family:"Julius sans-one" ;
-}
+}//
 
 

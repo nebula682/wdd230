@@ -1,0 +1,31 @@
+@media only screen and (min-width:38rem) {
+                    
+                    
+
+                    .parent{
+                                        display: grid;
+                                        grid-template-columns: 1fr 1fr 1fr;
+                                        column-gap: 18px;
+                    }
+                    /*.parent section{
+                                        box-shadow: 1px 1px 10px black;
+                                        
+                    
+                    }*/
+                    #myButton{
+                                        display: none
+                    }
+                    ul.menuLinks, ul.menuLinks.open{
+                                        display: flex;
+                                        justify-content: flex-start;
+                    }
+                    ul.menuLinks a:hover{
+                                        background-color: rgba(255,255,255,0.2);
+                    
+                    }
+                    }
+                    
+                    
+                    
+                                        
+                    
