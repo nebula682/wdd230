@@ -4,6 +4,7 @@
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <title>Malcolm Nigel Nkomo - WDD230- Web Frontend Development</title>
+                    <link rel="icon" href="images/favicon (4).ico" type="images/x-icon">
                     <meta name="description" content="Malcolm Nigel Nkomo - WDD230 - course assignment portal">
                     <meta name="author" content="Malcolm Nigel Nkomo">
 
@@ -21,13 +22,14 @@
                     <header>
                                         <img src="images/mal(1).png" alt="malcolm">
                                         <span>
-                                        <h1>Malcolm Nigel Nkomo</h1>
+                                        <h1 class="name">Malcolm Nigel Nkomo</h1>
                                         </span>
                     </header>
-                    <nav>
-                                        <ul>
+                    <nav id="animateme">
+                                        <button id="myButton"></button>
+                                        <ul class="menuLinks">
                                                             <li class="active"><a href="index.html">Home</a></li>
-                                                            <li><a href="">Chamber</a></li>
+                                                            <li class="current-menu-tem"><a href="">Chamber</a></li>
                                                             <li><a href="">Site Plan</a></li>
                                                             <li><a href="">Form</a></li>
                                         </ul>
@@ -73,7 +75,7 @@
                     </main>
                     <footer> 
                     <div class="container">
-                                        <p> &copy; 2024 | Malcolm  Nigel Nkomo | Zimbabwe  </p>
+                                        <p class="last"> &copy; 2024 | Malcolm  Nigel Nkomo | Zimbabwe  </p>
                                         <p id="lastModified"></p>
                     </div>
                                         
@@ -82,6 +84,7 @@
 
                     </footer>
                     <script src="scripts/getDates.js"></script>
+                    <script src="scripts/scripts.js"></script>
 
                     
 </body>

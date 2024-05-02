@@ -1,0 +1,25 @@
+*{
+                    box-sizing: border-box;
+                    margin: 0;
+                    
+}
+body{
+                    background-color: white;
+}header, footer, nav {
+                    background-color: #3d3b8e;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    
+                    
+                    
+}
+main{
+                    padding: 20px;
+                    margin: 10px;
+                    align-items: center;
+                    display: block;
+                    font-family:"Julius sans-one" ;
+}
+
+

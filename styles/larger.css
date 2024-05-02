@@ -12,7 +12,17 @@
                     
 
 }
-                    
+#myButton{
+                    display: none
+}
+ul.menuLinks, ul.menuLinks.open{
+                    display: flex;
+                    justify-content: flex-start;
+}
+ul.menuLinks a:hover{
+                    background-color: rgba(255,255,255,0.2);
+
+}
 }
 
 

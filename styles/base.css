@@ -12,6 +12,9 @@ header, footer, nav {
                     
                     
 }
+h1 , p{
+  color:white;
+}
 header{
                     padding-top: 15px;
                     padding-bottom: 15px;
@@ -34,7 +37,7 @@ header{
 }
   .head{
                     background-color: rgb(22, 80, 131);
-                    color:black;
+                    color:white;
                     display: block;
                     text-align: center;
                     padding: .75rem 0;
@@ -42,6 +45,7 @@ header{
 }
 section{
                     padding: 10px;
+                    color: black;
 }
 body{
                     font-family:"Roboto", sans-serif; 
@@ -50,6 +54,7 @@ body{
 }
 h1{
                     font-weight: 400;
+                    color: black;
 }
 nav{
                     background-color:rgb(96, 61, 29);
@@ -88,10 +93,12 @@ nav .active{
 @media (min-width:640px){
   nav ul{
     display: flex;
+    width: 100%;
     
   }
   nav ul li{
     flex: 1 1 100%;
+    text-align: center;
   }
 }
 
@@ -121,6 +128,7 @@ h3{
   display: block;
   position: relative;
   top: 5%;
+  color: white;
 }
 .container{
   margin-top: 10px;
@@ -132,6 +140,54 @@ h3{
 .list{
   padding: 10px;
 }
+.name{
+  color: white;
+}
+p{
+color: black;
+}
+.last{
+  color: white;
+}
+#myButton::before{
+  content: "=";
+}
+#myButton{
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 44px;
+  text-align: right;
+  padding:0.25rem 2vw;
+  position: absolute;
+  top: 0;
+  right:15px
+}
+ul.menuLinks li a{
+  display: block;
+  padding: 0.75rem 2vw;
+  color: white;
+  text-decoration: none;
+}
+li.current-menu-item a{
+  background-color: rgb(96, 61, 29,0.2);
+}
+ul.menuLinks{
+  display: none;
+  
+  list-style-type: none;
+}
+#myButton.open::before{
+  content:"x";
+}
+ul.menuLinks.open{
+  display: block;
+  
+}
+
+
 
 
 
