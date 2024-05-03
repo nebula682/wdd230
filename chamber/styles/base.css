@@ -5,11 +5,12 @@
                     
 }
 header, footer, nav{
-                    background-color: rgb(15, 169, 220);
+                    background-color: rgb(176, 186, 189);
                     align-items: center;
                     justify-content: center;
                     display: flex;
-                    height: 100px;
+                    height: 80px;
+                    
 }
 h1{
                     color: rgb(164, 75, 16);
@@ -45,7 +46,7 @@ body{
                     padding-bottom: 20px;
 }
 nav{
-                    background-color:rgb(99, 90, 85);
+                    background-color:rgb(238, 164, 52);
                     
                     
                     margin:0 auto;
@@ -110,8 +111,8 @@ nav .active{
                     position: absolute;
                     top: 0;
                     right:15px
-                  }
-                  ul.menuLinks li a{
+}
+ul.menuLinks li a{
                     display: block;
                     padding: 0.75rem 2vw;
                     color: white;

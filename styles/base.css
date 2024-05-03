@@ -90,17 +90,7 @@ nav a:hover{
 nav .active{
                     background-color: rgba(0,0,0,0.2);
 }
-@media (min-width:640px){
-  nav ul{
-    display: flex;
-    width: 100%;
-    
-  }
-  nav ul li{
-    flex: 1 1 100%;
-    text-align: center;
-  }
-}
+
 
 
 
@@ -177,15 +167,36 @@ li.current-menu-item a{
 ul.menuLinks{
   display: none;
   
+  
   list-style-type: none;
 }
 #myButton.open::before{
   content:"x";
 }
+ul.open.menuLinks{
+  display: block;
+}
 ul.menuLinks.open{
   display: block;
   
 }
+
+
+@media (min-width:640px){
+  nav ul{
+    display: flex;
+    width: 100%;
+    
+  }
+  nav ul li{
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
+footer p{
+  color: white;
+}
+
 
 
 
