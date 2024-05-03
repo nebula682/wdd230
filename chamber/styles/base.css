@@ -1,16 +1,24 @@
 *{
                     box-sizing: border-box;
                     padding: 0;
-                    margin: o;
+                    margin: 0;
                     
 }
-header, footer, nav{
-                    background-color: rgb(176, 186, 189);
+header, footer{
+                    background-color: rgb(74, 147, 216);
                     align-items: center;
                     justify-content: center;
                     display: flex;
-                    height: 80px;
+                    height: 85px;
                     
+                    
+                    
+}
+
+nav{
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 h1{
                     color: rgb(164, 75, 16);
@@ -27,15 +35,15 @@ body{
                     color:white;
                     display: block;
                     text-align: center;
-                    padding: .75rem 0;
-                    margin: 0;
+                    padding:.75rem 0 ;
+                    margin:0 ;
 }
 .card {
                     border: 1px solid rgb(22, 80, 131);
                     background-color:white;
                     border-radius: 10px;
                     overflow: hidden;
-                    margin: 1rem 0;
+                    margin: 1rem 0 ;
                     padding: 0;
                     
                     
@@ -46,7 +54,7 @@ body{
                     padding-bottom: 20px;
 }
 nav{
-                    background-color:rgb(238, 164, 52);
+                    background-color:rgb(214, 30, 51);
                     
                     
                     margin:0 auto;
@@ -155,6 +163,14 @@ ul.menuLinks li a{
                     grid-row: 1/2;
                     margin-top: 100px;
                }
+footer p{
+  text-align: center;
+  color: white;
+}
+.card p{
+  padding: 16px;
+  margin: 10px;
+}
 
 
 
