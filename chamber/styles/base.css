@@ -5,7 +5,7 @@
                     
 }
 header, footer{
-                    background-color: rgb(74, 147, 216);
+                    background-color: rgb(22, 80, 131);
                     align-items: center;
                     justify-content: center;
                     display: flex;
@@ -21,7 +21,7 @@ nav{
   display: flex;
 }
 h1{
-                    color: rgb(164, 75, 16);
+                    color: white;
 }
 body{
                     height: 100%;
@@ -54,7 +54,7 @@ body{
                     padding-bottom: 20px;
 }
 nav{
-                    background-color:rgb(214, 30, 51);
+                    background-color:rgb(108, 36, 44);
                     
                     
                     margin:0 auto;
