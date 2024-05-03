@@ -12,34 +12,37 @@ body{
                     justify-content: center;
                     display: flex;
                     height: 150px;
-                    font-family: "Julius Sans one";
-                    color: #ffffff;
+                    
+                    color: #ffffff
                     
                     
                     
 }
 main{
-                    padding: 20px;
-                    margin: 10px;
+                    padding: 0.75rem;
+                    margin: 0.5rem;
                     align-items: center;
                     display: block;
-                    font-family:"Roboto Static" ;
+                     
 }
 .one{
-                    margin: 20px;
-                    padding: 20px;
+                    margin: 0.5rem;
+                    padding: 0.75rem;
 }
 .two{
-                    margin: 20px;
-                    padding: 20px;
+                    margin: 0.5rem;
+                    padding: 0.75rem;
 }
-h1,h2, h3,h4{
+h2, h3{
                     text-align: center;
-                    text-decoration: solid;
+                    text-decoration:none;
+                    font-weight: 100;
+                    
 }
-.typo{
-                    padding: 20px;
-                    margin: 20px;
+body{
+                    font-family:"Roboto", sans-serif;
+                    font-family: 400;
+                    margin: 0.5rem;
+                    padding: 0.75rem;
 }
-
 
