@@ -180,6 +180,25 @@ ul.menuLinks.open{
   display: block;
   
 }
+footer p{
+  color: white;
+}
+#myBtn{
+  position: absolute;
+  top: 0;
+  right: 12px;
+}
+header{
+  position: relative;
+  
+  
+  cursor: pointer;
+
+}
+
+
+
+
 
 
 @media (min-width:640px){
@@ -193,9 +212,7 @@ ul.menuLinks.open{
     text-align: center;
   }
 }
-footer p{
-  color: white;
-}
+
 
 
 

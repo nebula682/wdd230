@@ -20,11 +20,15 @@ nav{
   justify-content: center;
   display: flex;
 }
-h1{
+h1, h2, h3{
                     color: white;
+                    font-weight: 100;
 }
 body{
                     height: 100%;
+                    font-family: "Roboto , sans-serif";
+                    font-weight: 400;
+                    
 }
 
 
@@ -171,6 +175,20 @@ footer p{
   padding: 16px;
   margin: 10px;
 }
+#myBtn{
+  position: absolute;
+  top: 0;
+  right: 12px;
+}
+header{
+  position: relative;
+  
+  
+  cursor: pointer;
+
+}
+
+
 
 
 

@@ -9,5 +9,5 @@ hamburgerElement.addEventListener('click', ()=> {
 const myBtn = document.querySelector("#myBtn")
 
 myBtn.addEventListener("click", ()=> {
-                    myBtn.classList.toggle("dark");
+                    main.classList.toggle("dark");
 });
