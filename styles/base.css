@@ -56,6 +56,11 @@ h1{
                     font-weight: 400;
                     color: black;
 }
+h2{
+  font-weight:400 ;
+  color: black;
+  padding: 20px;
+}
 nav{
                     background-color:rgb(96, 61, 29);
                     
@@ -109,7 +114,7 @@ header{
 h1{
   padding: 20px;
 }
-h2{
+h3{
   padding: 5px;
   margin: 3px;
   
