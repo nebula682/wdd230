@@ -137,6 +137,9 @@ h3{
 }
 .name{
   color: white;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 1rem;
 }
 p{
 color: black;
@@ -191,7 +194,7 @@ footer p{
 #myBtn{
   position: absolute;
   top: 0;
-  right: 12px;
+  right: 15px;
 }
 header{
   position: relative;

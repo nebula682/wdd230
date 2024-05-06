@@ -16,8 +16,8 @@ hamburgerElement.addEventListener("click", ()=>{
                     hamburgerElement.classList.toggle ("open");
 
 });
-const myBtn = document.querySelector("#myBtn")
+const myButton = document.querySelector("#myBtn")
 
-myBtn.addEventListener("click", ()=> {
-                    main.classList.toggle("dark");
+myButton.addEventListener("click", ()=> {
+                    main.classList.toggle ("dark");
 });
