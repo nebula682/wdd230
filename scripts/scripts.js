@@ -8,6 +8,6 @@ hamburgerElement.addEventListener('click', ()=> {
 })
 const myButton = document.querySelector("#myBtn")
 
-myButton.addEventListener("click", ()=> {
-                    main.classList.toggle ("dark");
+myButton.addEventListener('click', ()=> {
+                    main.classList.toggle("dark");
 });

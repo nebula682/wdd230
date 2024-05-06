@@ -195,6 +195,7 @@ footer p{
   position: absolute;
   top: 0;
   right: 15px;
+  cursor: pointer;
 }
 header{
   position: relative;
