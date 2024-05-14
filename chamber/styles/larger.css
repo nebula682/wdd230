@@ -1,6 +1,7 @@
 @media only screen and (min-width:38rem) {
                     
                     
+                    
 
                     .parent{
                                         display: grid;
@@ -22,7 +23,13 @@
                     ul.menuLinks a:hover{
                                         background-color: rgba(255,255,255,0.2);
                     
-                    }
+                    } 
+                                        .image:hover figcaption {
+                                            opacity: 1; /* Show the captions on hover */
+                                        }
+
+
+
                     }
                     
                     

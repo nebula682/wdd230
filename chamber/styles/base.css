@@ -187,6 +187,97 @@ header{
   cursor: pointer;
 
 }
+/*css for page 2*/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.malcolm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.sidebar {
+    grid-column: 1 / span 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ddd;
+    text-align: center;
+    height: 200px;
+}
+
+.content {
+    grid-column: 2 / span 4;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    
+}
+
+.gallery img {
+    max-width: 100%;
+    height: 200px;
+}
+.label{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+.visits{
+  color:navy ;
+  font-weight:bolder ;
+  font-size: larger;
+}
+.today{
+  color: aqua;
+}
+/* Media query for tablet and smaller screens */
+@media (max-width: 768px) {
+  #sidebar,
+  .gallery {
+    width: 100%; /* Make both sidebar and gallery take up 100% width */
+    float: none; /* Remove float to stack elements vertically */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
