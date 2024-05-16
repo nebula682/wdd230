@@ -246,7 +246,24 @@ body {
 }
 .today{
   color: aqua;
+}  /* Style for the image container */
+.gallery {
+    text-align: center;
 }
+
+/* Style for the image */
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media query for tablet and smaller screens */
 @media (max-width: 768px) {
   #sidebar,

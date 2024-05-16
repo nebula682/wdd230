@@ -1,0 +1,51 @@
+/* form styling*/
+.shantel fieldset{
+                    margin: 2rem 0;
+                    border: 1px solid;
+                    border: 6px;
+                    padding: 0.5rem 2%;
+                  
+                  }
+.shantel legend{
+                    color: rgb(62, 62, 158);
+                    padding: 0.5rem;
+                  }
+.shantel label{
+                    display: block;
+                    padding-top: 1rem;
+                    color:black;
+                    font-size: 0.9rem;
+}
+.shantel input[type="text"],
+.shantel input[type="email"],
+.shantel input[type="text"],
+.shantel input[type="range"]
+{
+                    background-color:rgb(223, 219, 219);
+                    display: block;
+                    border: solid 1px grey;
+                    border-radius: 5px;
+                    padding: 0.75rem;
+                    color: grey;
+                    width: 100%;
+                    max-width: 400px;
+                    appearance: none;
+}
+.shantel input[type="submit"]
+{
+                    border: 0cap;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 0.8rem;
+                    width: 96%;
+                    max-width: 400px;
+                    margin: -1rem 2% 2rem 2%;
+                    box-shadow: 1px 1px black;
+                    background-color: rgb(93,61,39);
+}
+.shantel input:required{
+                    border-right: solid 7px rgb(93,61,39);
+}
+.shantel input:required:valid{
+                    border-right:solid 7px rgb(93,61,39) ;
+} 
