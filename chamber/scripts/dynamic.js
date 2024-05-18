@@ -47,6 +47,18 @@ if (!previousVisit) {
     sidebar.innerHTML = '<h2>You last visited ' + daysDifference + (daysDifference === 1 ? ' day' : ' days') + ' ago.</h2>';
   }
 }
+const msToDays = 84600000;
+const theDateToday =new Date();
+
+const todayElement = document.querySelector("#today");
+const christmasElement =document.querySelector("christmas");
+const  christmasDateElement =document.querySelector("ChristmasDate"); 
+const daysElement = document.querySelector("#daysleft");
+
+//processing//
+const today = Date.now();
+
+
 
 
 

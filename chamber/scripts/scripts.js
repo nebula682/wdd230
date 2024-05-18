@@ -50,3 +50,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     // Update lastVisit in localStorage
                     localStorage.setItem ("lastvisit", currentDate);
 });
+
+// Store the current date and time in milliseconds since January 1, 1970, 00:00:00 UTC
+let currentMilliseconds = Date.now();
+
+// Display the stored value on the webpage
+document.getElementById("milliseconds").textContent = currentMilliseconds;
