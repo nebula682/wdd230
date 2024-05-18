@@ -48,4 +48,9 @@
 }
 .shantel input:required:valid{
                     border-right:solid 7px rgb(93,61,39) ;
-} 
+}
+:root{
+  background-color:white;
+  margin: 0;
+  padding: 0;
+}
