@@ -53,19 +53,35 @@
                                         </ul>
                     </nav>
                     <main>
-                                        <form method="get" action="form.html" class="shantel">
+                                        <form method="get" action="record.html" class="shantel">
                                         <fieldset>
                                                             <legend>Applicant Information</legend>
 
                                                             <label>Username* <input type="text" id="Username" name="Uname" required></label>
                                                             <label>Password* <input type="password" id="password" name="Pname" pattern="[A-Za-z0-9]{8,}" title="Must be at least 8 characters long and contain only letters and numbers" required></label>
                                                             <label>Password2*<input type="password" id="password2" name="Pname" required></label>
-                                                            <label>Email* <input type="email" id="Email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" placeholder="someone @gmail.com" required></label>
-                                                            <label>Page rating <input type="range" id="pagerating" name="prating"  min="0" max="10" value="0" step="1" list="rangevalues"></label>
+                                                            <label> Email<input type="email" id="email" name="email" required
+               pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$"
+               title="Please enter a valid BYU-I email address" placeholder="malcolm@byui.edu"></label>
+               
+        
+       
+</div>
+                                                             
+                                                            
+                                                            <label>Page Rating<input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" value=""></label>
+                                                            <div class="rating-value" id="ratingValue">5</div>
                                         </fieldset>
-                                        <input type="submit" value="Register to vote">
-                                        </form>
-                                        <div id="feedback"></div>
+                                                            <input type="submit" value="Apply">
+                                                            
+
+                                                            <div id="feedback"></div> 
+                                                            <div class="error-message" id="errorMessage">Please enter a valid BYU-I email address.</div>
+
+
+
+
+
 
 
 

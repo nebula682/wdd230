@@ -31,13 +31,32 @@ function validateForm() {
                   }
 
 
-const pagerating = document.getElementById("pagerating");
-const range = document.getElementById("pagerating");
+                  
+                  
+                  document.getElementById('emailForm').addEventListener('submit', function(event) {
+                    const emailInput = document.getElementById('email');
+                    const errorMessage = document.getElementById('errorMessage');
+            
+                    const emailPattern = /^[a-zA-Z0-9._%+\-]+@byui\.edu$/;
+            
+                    if (!emailPattern.test(emailInput.value)) {
+                        event.preventDefault();
+                        errorMessage.style.display = 'block';
+                    } else {
+                        errorMessage.style.display = 'none';
+                    }
+                });
+                
 
-range.addEventListener("change", displayRatingValue);
-range.addEventListener("input", displayRatingValue);
 
-function displayRatingValue(){
-                    rangevalue.innerHTML =range.value;
-}
+
+
+
+
+ const ratingInput = document.getElementById('pageRating');
+    const ratingValue = document.getElementById('ratingValue');
+
+    ratingInput.addEventListener('input', function() {
+        ratingValue.textContent = ratingInput.value;
+    });
 

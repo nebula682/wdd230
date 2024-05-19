@@ -41,7 +41,7 @@
                     max-width: 400px;
                     margin: -1rem 2% 2rem 2%;
                     box-shadow: 1px 1px black;
-                    background-color: rgb(93,61,39);
+                    background-color: rgb(37, 142, 21);
 }
 .shantel input:required{
                     border-right: solid 7px rgb(93,61,39);
