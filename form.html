@@ -58,13 +58,14 @@
                                                             <legend>Applicant Information</legend>
 
                                                             <label>Username* <input type="text" id="Username" name="Uname" required></label>
-                                                            <label>Password* <input type="password" id="Password" name="Pname" required></label>
-                                                            <label>Password* <input type="password" id="Password" name="Pname" required></label>
-                                                            <label>Email* <input type="email" id="Email" name="email" placeholder="someone @gmail.com" title="Please enter a valid email address" required></label>
-                                                            <label>Page rating <input type="range" id="Page rating" name="page rating" ></label>
+                                                            <label>Password* <input type="password" id="password" name="Pname" pattern="[A-Za-z0-9]{8,}" title="Must be at least 8 characters long and contain only letters and numbers" required></label>
+                                                            <label>Password2*<input type="password" id="password2" name="Pname" required></label>
+                                                            <label>Email* <input type="email" id="Email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" placeholder="someone @gmail.com" required></label>
+                                                            <label>Page rating <input type="range" id="pagerating" name="prating"  min="0" max="10" value="0" step="1" list="rangevalues"></label>
                                         </fieldset>
                                         <input type="submit" value="Register to vote">
                                         </form>
+                                        <div id="feedback"></div>
 
 
 

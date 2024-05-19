@@ -169,7 +169,8 @@ ul.menuLinks li a{
                }
 footer p{
   text-align: center;
-  color: white;
+  color: #ddd;
+  
 }
 .card p{
   padding: 16px;
@@ -199,7 +200,7 @@ body {
 
 .malcolm {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:  1fr 2fr;
     gap: 20px;
     flex-direction: row;
 }
@@ -208,6 +209,9 @@ body {
     grid-column: 1 / span 1;
     background-color: #f4f4f4;
     padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .section {
@@ -215,19 +219,22 @@ body {
     padding: 10px;
     background-color: #ddd;
     text-align: center;
-    height: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .content {
-    grid-column: 2 / span 4;
+    grid-column: 2 / span 1;
     background-color: #fff;
     padding: 20px;
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(2 1fr);
     gap: 20px;
+    text-align: center;
     
 }
 
@@ -276,38 +283,79 @@ body {
 
 
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
+.gallery figure {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
+.gallery img {
+  display: grid;
+  
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
 
+.gallery figcaption {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
 
+.gallery figure:hover img {
+  transform: scale(1.1);
+}/* Media query for tablet and smaller screens */
 
+@media (max-width: 768px) {
+  .malcolm {
+      grid-template-columns: 1fr; /* Stack sidebar and content vertically */
+  }
 
+  .sidebar,
+  .gallery {
+      width: 100%; /* Make both sidebar and gallery take up 100% width */
+  }
 
+  .gallery {
+      grid-template-columns: 1fr; /* One image per row */
+  }
+}
 
+/* Additional classes for labels and visits */
+.label {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
 
+.visits {
+  color: navy;
+  font-weight: bolder;
+  font-size: larger;
+}
 
+.today {
+  color: aqua;
+}
+figcaption{
+  padding: 0.75rem;
+}
+h2{
+  text-align: center;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  
-                  
-
-
+}
+#feedback{
+  color: red;
+}
 
 
 
