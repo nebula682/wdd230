@@ -1,4 +1,32 @@
 /* form styling*/
+:root {
+  --margin: 2rem 0;
+  --border-width: 1px;
+  --border-radius: 5px;
+  --padding: 0.5rem;
+  --padding-input: 0.75rem;
+  --padding-submit: 0.8rem;
+  --label-padding-top: 1rem;
+  --font-size-label: 0.9rem;
+  --color-legend: rgb(62, 62, 158);
+  --color-label: black;
+  --color-input-bg: rgb(223, 219, 219);
+  --color-input-border: grey;
+  --color-input-text: grey;
+  --width-input: 100%;
+  --max-width-input: 400px;
+  --color-submit-bg: rgb(93, 61, 39);
+  --color-submit-text: white;
+  --margin-submit: -1rem 2% 2rem 2%;
+  --box-shadow-submit: 1px 1px black;
+  --color-required-border: rgb(93, 61, 39);
+}
+
+
+
+
+
+
 .shantel fieldset{
                     margin: 2rem 0;
                     border: 1px solid;
