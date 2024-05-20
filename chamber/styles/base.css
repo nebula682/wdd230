@@ -236,7 +236,7 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(2 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     text-align: center;
     
@@ -289,7 +289,7 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2 1fr);
+  grid-template-columns: repeat(2, 1fr);
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -328,6 +328,7 @@ body {
   .sidebar,
   .gallery {
       width: 100%; /* Make both sidebar and gallery take up 100% width */
+      height: auto;
   }
 
   .gallery {
