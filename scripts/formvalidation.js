@@ -51,12 +51,18 @@ function validateForm() {
 
 
 
+                
+               // JavaScript to update the rating value display
+    document.addEventListener('DOMContentLoaded', function() {
+      const ratingInput = document.getElementById('pageRating');
+      const ratingValueDisplay = document.getElementById('ratingValue');
 
+      const updateRatingValue = () => {
+        ratingValueDisplay.textContent = `Current Rating: ${ratingInput.value}`;
+      };
 
- const ratingInput = document.getElementById('pageRating');
-    const ratingValue = document.getElementById('ratingValue');
-
-    ratingInput.addEventListener('input', function() {
-        ratingValue.textContent = ratingInput.value;
+      ratingInput.addEventListener('input', updateRatingValue);
+      ratingInput.addEventListener('change', updateRatingValue);
     });
-
+            
+          

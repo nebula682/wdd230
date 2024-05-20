@@ -50,7 +50,21 @@ function controlar(){
                     else{
                         feedback.textContent=""
                     }
-}
+} 
+document.addEventListener('DOMContentLoaded', function() {
+  const ratingInput = document.getElementById('pageRating');
+  const ratingValueDisplay = document.getElementById('ratingValue');
+
+  const updateRatingValue = () => {
+    ratingValueDisplay.textContent = `Current Rating: ${ratingInput.value}`;
+  };
+
+  ratingInput.addEventListener('input', updateRatingValue);
+  ratingInput.addEventListener('change', updateRatingValue);
+});
+
+
+
 
 
 
