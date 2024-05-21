@@ -207,10 +207,12 @@ body {
     grid-template-columns:  1fr 2fr;
     gap: 20px;
     flex-direction: row;
+    
 }
 
 .sidebar {
-    grid-column: 1 / span 1;
+  grid-column: 1 / span 1;
+    
     background-color: #f4f4f4;
     padding: 20px;
     display: grid;
@@ -289,7 +291,7 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -325,14 +327,25 @@ body {
       grid-template-columns: 1fr; /* Stack sidebar and content vertically */
   }
 
-  .sidebar,
-  .gallery {
-      width: 100%; /* Make both sidebar and gallery take up 100% width */
-      height: auto;
+  .sidebar {
+    width: 100%;
+      
+    grid-row: 1;
+    
+  }
+  .content{
+    grid-row: 2;
+    width: 100%;
+    height: auto;
+    
+    
+
   }
 
   .gallery {
       grid-template-columns: 1fr; /* One image per row */
+      width: 100%;
+      grid-row: 3;
   }
 }
 
