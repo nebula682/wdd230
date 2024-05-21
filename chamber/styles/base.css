@@ -387,11 +387,13 @@ h2{
             align-items: center;
         }
         .container {
-            width: 90%;
+            width: 100%;
             max-width: 1200px;
+            
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
+            padding: 20px;
         }
         form {
             display: flex;
@@ -444,6 +446,16 @@ h2{
         h2{
           color:black;
         }
+        /* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+
+
         
 
 
