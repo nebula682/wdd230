@@ -4,7 +4,7 @@ const password = document.querySelector("#password");
 const password2 = document.querySelector("#password2");
 const feedback = document.querySelector("#feedback")
 
-password2.addEventListener("focusout", controlar);
+
 
 function controlar(){
                     console.log("inside the function")
@@ -33,7 +33,8 @@ function validateForm() {
 
                   
                   
-                  document.getElementById('emailForm').addEventListener('submit', function(event) {
+                  document.getElementById('emailForm')
+                  .addEventListener('submit', function(event) {
                     const emailInput = document.getElementById('email');
                     const errorMessage = document.getElementById('errorMessage');
             

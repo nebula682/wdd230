@@ -1,0 +1,65 @@
+[
+                    {
+                      "name": "ABC Company",
+                      "address": "123 Main St, City, Country",
+                      "phoneNumber": "+263 7898009764",
+                      "website": "https://www.abc.com",
+                      "image": "abc_logo.png",
+                      "membershipLevel": "Gold"
+                      
+                    },
+                    {
+                      "name": "XYZ Corporation",
+                      "address": "456 Elm St, City, Country",
+                      "phoneNumber": "+1 (987) 654-3210",
+                      "website": "https://www.xyzcorp.com",
+                      "image": "xyz_logo.png",
+                      "membershipLevel": "Silver"
+                      
+                    },
+                    {
+                      "name": "123 Industries",
+                      "address": "789 Oak St, City, Country",
+                      "phoneNumber": "+2637885667234",
+                      "website": "https://www.123industries.com",
+                      "image": "123_logo.png",
+                      "membershipLevel": "Bronze",
+                      "otherInfo": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    },
+                    {
+                      "name": "Acme Corporation",
+                      "address": "456 Maple St, City, Country",
+                      "phoneNumber": "+26378479738",
+                      "website": "https://www.acme.com",
+                      "image": "acme_logo.png",
+                      "membershipLevel": "Gold"
+                      
+                    },
+                    {
+                      "name": "Tech Innovators Inc.",
+                      "address": "789 Pine St, City, Country",
+                      "phoneNumber": "+263778829 668",
+                      "website": "https://www.techinnovators.com",
+                      "image": "tech_logo.png",
+                      "membershipLevel": "Silver"
+                      
+                    },
+                    {
+                      "name": "Global Solutions Ltd.",
+                      "address": "101 Oakwood Ave, City, Country",
+                      "phoneNumber": "+1 (444) 555-6666",
+                      "website": "https://www.globalsolutions.com",
+                      "image": "global_logo.png",
+                      "membershipLevel": "Bronze"
+                      
+                    },
+                    {
+                      "name": "Innovate Tech Co.",
+                      "address": "303 Cedar St, City, Country",
+                      "phoneNumber": "+263775456789",
+                      "website": "https://www.innovatetech.com",
+                      "image": "innovate_logo.png",
+                      "membershipLevel": "Gold",
+                      "otherInfo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                    }
+                  ]
