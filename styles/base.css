@@ -26,14 +26,25 @@ header{
 }
 .card {
                     border: 1px solid rgb(22, 80, 131);
-                    background-color:white;
+                    background-color:rgba(97, 151, 222, 0.204);
                     border-radius: 10px;
                     overflow: hidden;
                     margin: 1rem 0;
                     padding: 0;
+                    text-align: center;
+                    margin-bottom: 6px;
                     
                     
                     
+}
+
+.card #description{
+  text-transform: capitalize;
+  margin: 0.3rem 0;
+}
+.card #temperature{
+  font-size: 2rem;
+  margin: 0.3rem 0;
 }
   .head{
                     background-color: rgb(22, 80, 131);
@@ -134,6 +145,16 @@ h3{
 }
 .list{
   padding: 10px;
+  text-align: left;
+  justify-items: auto;
+  color: rgb(22, 80, 131);
+  
+}
+.list li{
+  padding: 15px;
+}
+.list p{
+  color: blue;
 }
 .name{
   color: white;

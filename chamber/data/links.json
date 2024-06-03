@@ -1,0 +1,82 @@
+{
+                    "weeks": [
+                      {
+                        "week": "Week 1",
+                        "links": [
+                          {
+                            "url": "week 01/learning/activity1",
+                            "title": "Introduction to Topic"
+                          },
+                          {
+                            "url": "path/to/learning/activity2",
+                            "title": "Basic Concepts"
+                          }
+                        ]
+                      },
+                      {
+                        "week": "Week 2",
+                        "links": [
+                          {
+                            "url": "week 02/learning/activity3",
+                            "title": "Advanced Concepts"
+                          },
+                          {
+                            "url": "path/to/learning/activity4",
+                            "title": "Practical Applications"
+                          }
+                        ]
+                      },
+                      {
+                        "week": "Week 3",
+                        "links": [
+                          {
+                            "url": "week 03/learning/activity5",
+                            "title": "Case Studies"
+                          },
+                          {
+                            "url": "path/to/learning/activity6",
+                            "title": "Project Work"
+                          }
+                        ]
+                      },
+                      {
+                        "week": "Week 4",
+                        "links": [
+                          {
+                            "url": "week 04/learning/activity7",
+                            "title": "Midterm Review"
+                          },
+                          {
+                            "url": "path/to/learning/activity8",
+                            "title": "Midterm Exam"
+                          }
+                        ]
+                      },
+                      {
+                        "week": "Week 5",
+                        "links": [
+                          {
+                            "url": "week 05/learning/activity9",
+                            "title": "Continuation of Project"
+                          },
+                          {
+                            "url": "path/to/learning/activity10",
+                            "title": "Final Preparations"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                                                                                  
+                                                                                
+
+
+
+
+
+
+
+
+
+
+
