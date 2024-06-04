@@ -65,7 +65,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
   ratingInput.addEventListener('input', updateRatingValue);
   ratingInput.addEventListener('change', updateRatingValue);
+}); 
+function updateRating(value) {
+  document.getElementById('ratingValue').textContent = value;
+}
+
+// Initialize display on page load
+document.addEventListener('DOMContentLoaded', (event) => {
+  const ratingInput = document.getElementById('rating');
+  updateRating(ratingInput.value);
 });
+
+
+
 
 
 

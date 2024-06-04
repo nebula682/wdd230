@@ -79,5 +79,6 @@ function validateForm() {
       const ratingInput = document.getElementById('rating');
       updateRating(ratingInput.value);
   });
+
             
           

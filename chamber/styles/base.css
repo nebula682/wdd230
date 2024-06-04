@@ -58,7 +58,7 @@ body{
                     margin: 1.2rem 2vw;
                     padding-top: 20px;
                     padding-bottom: 20px;
-                    margin: 0;
+                    margin: 25px;
 }
 nav{
                     background-color:rgb(11, 19, 26);
@@ -123,7 +123,7 @@ nav .active{
 }
 .card {
   border: 1px solid rgb(22, 80, 131);
-  background-color:rgba(97, 151, 222, 0.204);
+  background-color:white;
   border-radius: 10px;
   overflow: hidden;
   margin: 2rem 0;
@@ -142,6 +142,9 @@ margin: 0.3rem 0;
 .card #temperature{
 font-size: 2rem;
 margin: 0.3rem 0;
+}
+.cta-link{
+  color: rgb(22, 80, 131);
 }
 
 
@@ -331,9 +334,8 @@ body {
   font-weight:bolder ;
   font-size: larger;
 }
-.today{
-  color: aqua;
-}  /* Style for the image container */
+
+  /* Style for the image container */
 .gallery {
     text-align: center;
 }

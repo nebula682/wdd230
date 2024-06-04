@@ -1,6 +1,6 @@
 [
                     {
-                      "name": "ABC Company",
+                      "name": "Shantel Company",
                       "address": "123 Main St, City, Country",
                       "phoneNumber": "+263 7898009764",
                       "website": "https://www.abc.com",
@@ -9,7 +9,7 @@
                       
                     },
                     {
-                      "name": "XYZ Corporation",
+                      "name": "Jay Corporation",
                       "address": "456 Elm St, City, Country",
                       "phoneNumber": "+1 (987) 654-3210",
                       "website": "https://www.xyzcorp.com",
@@ -18,7 +18,7 @@
                       
                     },
                     {
-                      "name": "123 Industries",
+                      "name": "Letwin Industries",
                       "address": "789 Oak St, City, Country",
                       "phoneNumber": "+2637885667234",
                       "website": "https://www.123industries.com",
@@ -27,7 +27,7 @@
                       
                     },
                     {
-                      "name": "Acme Corporation",
+                      "name": "Berlinda Corporation",
                       "address": "456 Maple St, City, Country",
                       "phoneNumber": "+26378479738",
                       "website": "https://www.acme.com",
@@ -36,7 +36,7 @@
                       
                     },
                     {
-                      "name": "Tech Innovators Inc.",
+                      "name": "Shamaine Innovators Inc.",
                       "address": "789 Pine St, City, Country",
                       "phoneNumber": "+263778829 668",
                       "website": "https://www.techinnovators.com",
@@ -45,7 +45,7 @@
                       
                     },
                     {
-                      "name": "Global Solutions Ltd.",
+                      "name": "Natasha Solutions Ltd.",
                       "address": "101 Oakwood Ave, City, Country",
                       "phoneNumber": "+1 (444) 555-6666",
                       "website": "https://www.globalsolutions.com",
