@@ -9,7 +9,7 @@ header, footer{
                     align-items: center;
                     justify-content: center;
                     display: flex;
-                    height: 85px;
+                    height: 100px;
                     width: 100%;
                     
                     
@@ -146,6 +146,24 @@ margin: 0.3rem 0;
 .cta-link{
   color: rgb(22, 80, 131);
 }
+footer {
+  background-color: rgb(22, 80, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:  0;
+  margin-top: auto;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding: 3px;
+}
+
+
+
 
 
 
@@ -261,7 +279,8 @@ header{
 
 }
 
-/*css for page 2*/* {
+/*css for page 2*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -335,12 +354,12 @@ body {
   font-size: larger;
 }
 
-  /* Style for the image container */
+  
 .gallery {
     text-align: center;
 }
 
-/* Style for the image */
+/*Style for the image */
 
 
 
@@ -353,12 +372,12 @@ body {
 
 
 
-/* Media query for tablet and smaller screens */
+
 @media (max-width: 768px) {
   #sidebar,
   .gallery {
-    width: 100%; /* Make both sidebar and gallery take up 100% width */
-    float: none; /* Remove float to stack elements vertically */
+    width: 100%; 
+    float: none; 
   }
 }
 
@@ -419,7 +438,7 @@ body {
   }
 
   .gallery {
-      grid-template-columns: 1fr; /* One image per row */
+      grid-template-columns: 1fr;
       width: 100%;
       grid-row: 3;
   }
@@ -451,6 +470,134 @@ h2{
   color: red;
 }
 
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Main Container *
+.malcolm {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.sidebar {
+  grid-column: 1 / span 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+}
+
+.section {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ddd;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  grid-column: 2 / span 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.gallery figure {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.gallery figcaption {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.gallery figure:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.label {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+.visits {
+  color: navy;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.today {
+  color: aqua;
+}
+
+figcaption {
+  padding: 0.75rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+#feedback {
+  color: red;
+}
+
+#lastModified {
+  display: block;
+  position: relative;
+  top: 5%;
+  color: white;
+}
+
+/* Media query for tablet and smaller screens *
+@media (max-width: 768px) {
+  .malcolm {
+      grid-template-columns: 1fr; /* Stack sidebar and content vertically *
+  }
+
+  .sidebar {
+      grid-row: 1;
+      width: 100%;
+  }
+
+  .content {
+      grid-row: 2;
+      width: 100%;
+  }
+
+  .gallery {
+      grid-template-columns: 1fr; /* One image per row *
+      grid-row: 3;
+      width: 100%;
+  }
+}
 
 /*css for join page*/
 
@@ -462,7 +609,7 @@ h2{
             flex-direction: column;
             align-items: center;
         }
-        .container {
+        .nebula {
             width: 100%;
             max-width: 1200px;
             
@@ -527,10 +674,18 @@ h2{
           padding: 10px;
           margin: 10px;
         }
+        
+
+
+
+
+
+
         /* Media query for smaller screens */
 @media (max-width: 768px) {
-  .container {
-      grid-template-columns: 1fr;
+  .nebula {
+    
+      grid-template-columns:   1fr;
   }
 }
 
@@ -611,13 +766,14 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 5px 0;
+  padding:  0;
   margin-top: auto;
 }
 
 footer p {
   text-align: center;
   color: white;
+  padding: 0;
 }
 
 
